@@ -2,9 +2,9 @@ import React from "react";
 import styles from "./style.module.scss";
 import { Link } from "react-router-dom";
 
-const SideBar = () => {
+const Sidebar = () => {
   return (
-    <div className={styles.sideBar}>
+    <div className={styles.Sidebar}>
       <ul className={styles.menu}>
         <li>
           <Link to="/">ホーム</Link>
@@ -23,4 +23,4 @@ const SideBar = () => {
   );
 };
 
-export default SideBar;
+export default Sidebar;
